@@ -26,7 +26,7 @@ function notBetweenOperator(data, settings) {
 
 function inOperator(data, settings, not = false) {
   return {
-    [not ? 'notIn' : 'in']: ((settings.by ? data[settings.by] : data) || []).map((item) => item[settings.itemBy || 'value']),
+    [not ? 'notIn' : 'in']: ((settings.by ? data[settings.by] : data) || []).map((item) => item[settings.itemBy || 'id']),
   };
 }
 
