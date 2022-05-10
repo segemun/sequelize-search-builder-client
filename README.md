@@ -23,7 +23,7 @@ const settings = {
         },
     },
 };
-const request = generateSearchRequest(data, settings);
+const request = generateSearchRequest(formData, settings);
 // request data:
 {
     filter: {
@@ -62,7 +62,7 @@ const settings = {
         },
     },
 };
-const request = generateSearchRequest(data, settings);
+const request = generateSearchRequest(formData, settings);
 // request data:
 {
     filter: {
