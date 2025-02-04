@@ -22,6 +22,8 @@ const regexpData = require('./data/where/regexpData');
 const notRegexpData = require('./data/where/notRegexpData');
 const iRegexpData = require('./data/where/iRegexpData');
 const notIRegexpData = require('./data/where/notIRegexpData');
+const isData = require('./data/where/isData');
+const notData = require('./data/where/notData');
 
 const conditionData = require('./data/conditionData');
 const orderData = require('./data/orderData');
@@ -89,6 +91,12 @@ describe('conditions', () => {
   });
   describe('notIRegexp', () => {
     notIRegexpData.forEach(compareConditionDataset);
+  });
+  describe('is', () => {
+    isData.forEach(compareConditionDataset);
+  });
+  describe('not', () => {
+    notData.forEach(compareConditionDataset);
   });
 
   describe('conditions', () => {

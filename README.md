@@ -103,7 +103,7 @@ const settings = {
   },
 };
 ```
-### Gt, Gte, Lt, Lte, ne, like, iLike, notLike, notILike, regexp, notRegexp, iRegexp, notIRegexp operators examples
+### Gt, Gte, Lt, Lte, ne, like, iLike, notLike, notILike, regexp, notRegexp, iRegexp, notIRegexp, is, not operators examples
 ```javascript
 const formData = {
     age: 18,
@@ -111,7 +111,7 @@ const formData = {
 const settings = {
   where: {
     age: {
-        type: 'gt', // (gte, lt, lte, ne, like, iLike, notLike, notILike, regexp, notRegexp, iRegexp, notIRegexp)  
+        type: 'gt', // (gte, lt, lte, ne, like, iLike, notLike, notILike, regexp, notRegexp, iRegexp, notIRegexp, is, not)  
     },
   },
 };

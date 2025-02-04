@@ -59,6 +59,8 @@ const OpMapper = {
   notRegexp: equalByTypeOperator,
   iRegexp: equalByTypeOperator,
   notIRegexp: equalByTypeOperator,
+  is: equalByTypeOperator,
+  not: equalByTypeOperator,
 };
 
 export default (data = {}, settings = {}) => {
