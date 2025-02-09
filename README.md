@@ -1,6 +1,8 @@
+🚨 This package has moved! It is now maintained under [@SequelizeSearchBuilder](https://github.com/SequelizeSearchBuilder).
+
 # Sequelize Search Builder Client
 ## About
-This is a library for the generation search http request for [Sequelize Search Builder](https://github.com/segemun/sequelize-search-builder) module.
+This is a library for the generation search http request for [Sequelize Search Builder](https://github.com/SequelizeSearchBuilder/sequelize-search-builder) module.
 
 ## Installation
 ```bash
